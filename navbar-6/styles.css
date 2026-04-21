@@ -3,8 +3,9 @@
 }
 
 body {
-  background: #e6edf2;
+  background: #121212;
   font-family: "Euclid Circular A";
+  color: #f9f9f9;
 }
 
 button {
@@ -16,7 +17,7 @@ button {
   padding: 0;
   font-family: inherit;
   background: transparent;
-  color: #585c62;
+  color: #f9f9f9;
   cursor: pointer;
 }
 
@@ -41,8 +42,8 @@ button {
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  background: #ffffff;
-  box-shadow: 0 10px 50px rgba(0, 0, 0, 0.1);
+  background: #19191c;
+  box-shadow: 0 10px 50px rgba(0, 0, 0, 0.3);
   opacity: 0;
   visibility: hidden;
   transition-property: translate, opacity, visibility;
@@ -96,13 +97,13 @@ body.open .navbar {
 
 .logo span {
   font-size: 18px;
-  color: #606468;
+  color: #f9f9f9;
 }
 
 .search {
   margin: 0 auto;
   position: relative;
-  color: #888989;
+  color: #f9f9f9;
 }
 
 @media (width >= 500px) {
@@ -134,7 +135,7 @@ body.open .navbar {
   font-size: 16px;
   border: 0;
   border-radius: 8px;
-  background: #eff1f2;
+  background: #2c2c32;
   color: inherit;
   font-family: inherit;
   outline: none;

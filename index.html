@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar Designs Collection</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-color: #121212;
+            --card-bg: #1e1e1e;
+            --text-color: #e0e0e0;
+            --accent-color: #00adb5;
+            --hover-color: #00fff5;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            padding: 2rem;
+            min-height: 100vh;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            color: var(--accent-color);
+            margin-bottom: 0.5rem;
+        }
+
+        header p {
+            font-weight: 300;
+            opacity: 0.8;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 2rem;
+        }
+
+        .card {
+            background-color: var(--card-bg);
+            border-radius: 12px;
+            padding: 2rem;
+            text-align: center;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            text-decoration: none;
+            color: inherit;
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+            border-color: var(--accent-color);
+        }
+
+        .card h2 {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .card .btn {
+            background-color: var(--accent-color);
+            color: #eeeeee;
+            padding: 0.5rem 1.5rem;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            font-weight: 600;
+            transition: background-color 0.3s ease;
+        }
+
+        .card:hover .btn {
+            background-color: var(--hover-color);
+            color: #222831;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 4rem;
+            opacity: 0.6;
+            font-size: 0.8rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Navbar Designs</h1>
+        <p>A curated collection of 15 responsive navigation bar templates</p>
+    </header>
+
+    <div class="container">
+        <!-- Cards will be generated or manually added here -->
+        <a href="./navbar-1/index.html" class="card">
+            <h2>Navbar 1</h2>
+            <span class="btn">View Design</span>
+        </a>
+        <a href="./navbar-2/index.html" class="card">
+            <h2>Navbar 2</h2>
+            <span class="btn">View Design</span>
+        </a>
+        <a href="./navbar-3/index.html" class="card">
+            <h2>Navbar 3</h2>
+            <span class="btn">View Design</span>
+        </a>
+        <a href="./navbar-4/index.html" class="card">
+            <h2>Navbar 4</h2>
+            <span class="btn">View Design</span>
+        </a>
+        <a href="./navbar-5/index.html" class="card">
+            <h2>Navbar 5</h2>
+            <span class="btn">View Design</span>
+        </a>
+        <a href="./navbar-6/index.html" class="card">
+            <h2>Navbar 6</h2>
+            <span class="btn">View Design</span>
+        </a>
+        <a href="./navbar-7/index.html" class="card">
+            <h2>Navbar 7</h2>
+            <span class="btn">View Design</span>
+        </a>
+        <a href="./navbar-8/index.html" class="card">
+            <h2>Navbar 8</h2>
+            <span class="btn">View Design</span>
+        </a>
+        <a href="./navbar-10/index.html" class="card">
+            <h2>Navbar 10</h2>
+            <span class="btn">View Design</span>
+        </a>
+        <a href="./navbar-11/index.html" class="card">
+            <h2>Navbar 11</h2>
+            <span class="btn">View Design</span>
+        </a>
+        <a href="./navbar-12/index.html" class="card">
+            <h2>Navbar 12</h2>
+            <span class="btn">View Design</span>
+        </a>
+        <a href="./navbar-13/index.html" class="card">
+            <h2>Navbar 13</h2>
+            <span class="btn">View Design</span>
+        </a>
+        <a href="./navbar-14/index.html" class="card">
+            <h2>Navbar 14</h2>
+            <span class="btn">View Design</span>
+        </a>
+        <a href="./navbar-15/index.html" class="card">
+            <h2>Navbar 15</h2>
+            <span class="btn">View Design</span>
+        </a>
+        <a href="./navbar-16/index.html" class="card">
+            <h2>Navbar 16</h2>
+            <span class="btn">View Design</span>
+        </a>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Rajjit Laishram. Licensed under MIT.</p>
+        <p><a href="https://github.com/rajjitlai/Navbar_Designs" style="color: var(--accent-color); text-decoration: none;">GitHub Repository</a></p>
+    </footer>
+</body>
+</html>

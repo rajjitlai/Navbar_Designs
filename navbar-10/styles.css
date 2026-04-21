@@ -10,15 +10,16 @@ body,
 
 body {
   margin: 0;
-  background: #f0f2f5;
+  background: #121212;
   font-family: system-ui, -apple-system, BlinkMacSystemFont;
+  color: #f9f9f9;
 }
 
 button {
   display: grid;
   place-items: center;
   background: transparent;
-  color: #606770;
+  color: #f9f9f9;
   border: 0;
 }
 
@@ -36,9 +37,9 @@ button > i {
   height: 72px;
   width: 100%;
   padding: 0 20px;
-  border-bottom: 1px solid #e8e8e8;
-  background: #ffffff;
-  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+  border-bottom: 1px solid #333;
+  background: #19191c;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
 }
 
 .navbar-logo,
@@ -57,7 +58,7 @@ button > i {
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  background: #f0f2f5;
+  background: #2c2c32;
 }
 
 .navbar-badge {
@@ -99,7 +100,7 @@ button > i {
 }
 
 .navbar .navbar-end:last-child > button > i {
-  color: #050505;
+  color: #f9f9f9;
 }
 
 @media (width <= 600px) {
