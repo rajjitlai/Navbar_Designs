@@ -75,7 +75,8 @@ a.join-link {
 }
 
 .search input {
-  background: #f2f2f2;
+  background: #2c2c32;
+  color: #f9f9f9;
   border-radius: 6px;
   border: 0;
   width: 100%;
@@ -96,6 +97,7 @@ a.join-link {
   translate: 0 -50%;
   width: 20px;
   height: 20px;
+  filter: invert(1);
 }
 
 .burger {
@@ -124,6 +126,7 @@ a.join-link {
 }
 .dropdown > a > img {
   width: 20px;
+  filter: invert(1);
 }
 
 .dropdown:hover .menu {
@@ -138,10 +141,10 @@ a.join-link {
   display: grid;
   width: 180px;
   padding: 8px 0;
-  background: #ffffff;
+  background: #19191c;
   border-radius: 10px;
-  border: 1px solid #e1e1e1;
-  box-shadow: 0 40px 40px rgb(0 0 0 / 6%);
+  border: 1px solid #333;
+  box-shadow: 0 40px 40px rgb(0 0 0 / 20%);
   opacity: 0;
   visibility: hidden;
   transition: 0.25s;
@@ -150,8 +153,8 @@ a.join-link {
 .menu::before {
   content: "";
   background: inherit;
-  border-top: 1px solid #e1e1e1;
-  border-right: 1px solid #e1e1e1;
+  border-top: 1px solid #333;
+  border-right: 1px solid #333;
   position: absolute;
   top: -7px;
   right: 22px;
@@ -171,5 +174,5 @@ a.join-link {
 }
 
 .menu > a:hover {
-  background: #f5f5f5;
+  background: #2c2c32;
 }

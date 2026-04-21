@@ -1,12 +1,12 @@
 # Awesome Navbar Designs Collection
 
-A collection of 15 modern, responsive navigation bar designs built with HTML, CSS, and minimal JavaScript. This project has been optimized for better structure and easier navigation through a centralized portal.
+A collection of 16 modern, responsive navigation bar designs built with HTML, CSS, and minimal JavaScript. This project has been optimized for better structure and easier navigation through a centralized portal.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/rajjitlai/Navbar_Designs)
 
 ## 🚀 Features
-- 15 Unique Navbar Designs.
+- 16 Unique Navbar Designs.
 - Fully Responsive layouts.
 - Dark Theme portal for easy browsing.
 - Modern CSS (Flexbox, Grid, Animations).
@@ -17,7 +17,7 @@ A collection of 15 modern, responsive navigation bar designs built with HTML, CS
 
 ## 📂 Project Structure
 Each navbar design is contained within its own directory:
-- `navbar-1/` to `navbar-16/` (excluding `navbar-9/`): Individual design folders containing `index.html`, `styles.css`, and any required assets.
+- `navbar-1/` to `navbar-16/`: Individual design folders containing `index.html`, `styles.css`, and any required assets.
 - `index.html`: The main landing page/portal for the collection.
 
 ## 🔗 Design Previews
@@ -33,6 +33,7 @@ You can preview each design by navigating to the following links:
 | **Navbar 6** | [Preview](./navbar-6/index.html) |
 | **Navbar 7** | [Preview](./navbar-7/index.html) |
 | **Navbar 8** | [Preview](./navbar-8/index.html) |
+| **Navbar 9** | [Preview](./navbar-9/index.html) |
 | **Navbar 10** | [Preview](./navbar-10/index.html) |
 | **Navbar 11** | [Preview](./navbar-11/index.html) |
 | **Navbar 12** | [Preview](./navbar-12/index.html) |
